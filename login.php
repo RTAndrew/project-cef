@@ -1,5 +1,4 @@
 <?php
-
 include "php/conexao.php";
 session_start();
 //Checkar se existe uma sessao e para redirecionar
@@ -54,7 +53,6 @@ session_start();
 
 
 ?>
-
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>

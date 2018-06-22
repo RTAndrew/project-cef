@@ -22,12 +22,7 @@ $password = $_SESSION['password'];
         //Pegar o Nome
           $getCredential_Nome_Funcionario = $line['Nome_Funcionario'];
       }
-
-
 ?>
-
-
-
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>

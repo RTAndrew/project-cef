@@ -1,5 +1,4 @@
 <?php
-
 include "php/conexao.php";
 session_start();
 //Checkar se existe uma sessao
@@ -40,9 +39,6 @@ $sql = mysqli_query($conexao, "SELECT * FROM usuario WHERE email = '$login'");
 */
 
 ?>
-
-
-
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>

@@ -1,5 +1,4 @@
 <?php
-
 include "php/conexao.php";
 session_start();
 //Checkar se existe uma sessao
@@ -27,10 +26,6 @@ $password = $_SESSION['password'];
 
 
 ?>
-
-
-
-
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
