@@ -8,4 +8,3 @@ $conexao = mysqli_connect($dbhost, $dbuser, $dbpass, $banco) or die (mysql_error
 
 
 ?>
-
