@@ -17,6 +17,7 @@ if ($nickname != "" && $password != ""){
 
 	if ($registro) {
 		if ($senha_user == $password) {
+			ini_set('session.save_path', 'tmp/');
 				session_start();
 				$_SESSION['id_login'] = $id;
 				$_SESSION['login'] = $nickname;

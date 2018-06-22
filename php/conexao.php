@@ -1,8 +1,10 @@
 <?php
+$dbhost = "eu-cdbr-west-02.cleardb.net";
+$dbuser = "bd5dd53124316c";
+$dbpass = "a647b2ba";
+$banco = "heroku_bee20642cbe8919";
 
-$dbhost = "mysql://mysql:3306/";
-$dbuser = "id3216340_rootsite";
-$dbpass = "VX4vNAXGUw8pcv8j";
-$banco = "sampledb";
 $conexao = mysqli_connect($dbhost, $dbuser, $dbpass, $banco) or die (mysql_error());
+
+
 ?>
