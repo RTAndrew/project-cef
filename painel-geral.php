@@ -1,5 +1,4 @@
 <?php
-
 include "php/conexao.php";
 session_start();
 //Checkar se existe uma sessao

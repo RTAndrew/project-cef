@@ -25,19 +25,19 @@ if ($nickname != "" && $password != ""){
 				$_SESSION['perfil'] = $perfil_user;
 
 			if($perfil_user == "aluno"){
-				header("Location: ../painel-aluno");
+				header("Location: ../painel-aluno.php");
 			}
 			elseif ($perfil_user == "professor") {
-				header("Location: ../painel-professor");
+				header("Location: ../painel-professor.php");
 			} 
 			elseif ($perfil_user == "secretaria") {
-				header("Location: ../painel-secretaria");
+				header("Location: ../painel-secretaria.php");
 			}
 			elseif ($perfil_user == "director academico") {
-				header("Location: ../painel-diretor-academico");
+				header("Location: ../painel-diretor-academico.php");
 			}
 			elseif ($perfil_user == "director geral" OR $perfil_user == "administrador" ) {
-				header("Location: ../painel-geral");
+				header("Location: ../painel-geral.php");
 			}
 		} else {
 			//echo "Senha ou Nickname Incorreto";
