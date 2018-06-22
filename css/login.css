@@ -1,0 +1,76 @@
+body{
+	/* background-color: #fdfdfd; */
+	font-family: "Ubuntu";
+	background-color:  #E0E0E0;
+ /* #e6e9f0 */
+}
+
+
+/* .bg-image {
+	width: 100vh;
+    height: 100vh;
+    background-image: url("../img/cef-completo");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+} */
+
+.bg-image {
+  position: relative;
+  z-index: 1;
+  width: 100vh;
+    height: 100vh;
+}
+
+		.bg-image:before {
+			margin-top: 2rem;
+		  	content: "";
+		  	position: absolute;
+		  	z-index: -1;
+		  	width: 100vh;
+			height: 100vh;
+			background-image: url("../img/cef-completo");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+		  	opacity: 0.1;
+		}
+
+
+	.auth h1 {
+		text-align: center;
+		color: #08374f;
+		font-size: 4rem;
+		font-weight: bold;
+		border-bottom: 3px solid #e2a041;
+	}
+
+	.erro {
+		font-size: 1.3rem;
+		color: red;
+		text-align: center;
+	}
+
+
+.conteudo{
+	background-color: transparent;
+	margin-top: 25%;
+}
+	.conteudo .fa{
+		font-size: 30px;
+		color: #08374f;
+	}
+
+.x{
+	height: 60px;
+}
+
+.button {
+	font-size: 20px;
+	background-color: #04202e;
+}
+	.button:hover{
+	font-size: 20px;
+	background-color: #08374f;
+}
+

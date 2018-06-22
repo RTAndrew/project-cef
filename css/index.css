@@ -1,0 +1,181 @@
+
+/* CSS para todas as paginas */ 
+
+body{
+	background-color: #fdfdfd;
+	font-family: "Ubuntu";
+ /* #e6e9f0 */
+}
+/********* FONT *********/
+@font-face { 
+		font-family: "FontAwesome"; 
+		src: url('../font/font-awesome/css/font-awesome.min.css') format('opentype'); 
+	}
+/********* DELICIOUS *********/
+	@font-face { 
+		font-family: "Delicious"; 
+		src: url('../font/delicious/Delicious-Regular.otf'); 
+	}
+
+		@font-face { 
+			font-family: "DeliciousB"; 
+			src: url('../font/delicious/Delicious-Bold.otf') format('opentype'); 
+		}
+
+		@font-face { 
+			font-family: "DeliciousBI"; 
+			src: url('../font/delicious/Delicious-BoldItalic.otf') format('opentype'); 
+		}
+/********* UBUNTU *********/
+
+	@font-face { 
+		font-family: "Ubuntu"; 
+		src: url('../font/ubuntu/Ubuntu-R.ttf') format('truetype'); 
+	}
+
+
+	p {
+		font-family: "Ubuntu";
+		font-weight: normal;
+		padding: auto;
+		margin: auto; 
+	}
+
+	h1, h2, h3, h4, h5 {
+		font-family: "DeliciousB";
+		font-weight: normal; 
+	}
+
+
+
+
+/* BACKGROUND CINZA ALEARTORIO */
+	.grt{
+		background-color: #dae2df;
+	}
+
+.top-bar {
+	background-color: #031822;
+}
+	.top-bar .menu{
+		background-color: #031822;
+		color: white;
+	}
+	.top-bar .menu a{
+		color: white;
+	}
+	.top-bar .menu .fa{
+		font-size: 1.8rem;
+		margin-right: 0.5rem;
+		color: white;
+	}
+	.top-bar .menu .button{
+		border-radius: 2px;
+	}
+
+
+.menu-text{
+	display: inline-block;
+}
+
+	.logo {
+		margin-right: 1rem;
+	}
+
+	.menu-text h1 {
+		font-size: 1.5rem;
+		color: #e2a041;
+	}
+
+.greetings {
+	padding-top: 2.5rem;
+	padding-bottom: 4.5rem;
+	text-align: justify;
+}
+	.greetings h1{
+		color: #04202e;
+		text-align: center;
+	}
+
+
+
+.servico-projecto{
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	padding-right: 2.5rem;
+	padding-left: 2.5rem;
+}
+	.servico-projecto h1 {
+		color: #04202e;
+		text-align: center;
+	}
+	.servico-projecto p {
+		text-align: justify;
+	}
+
+.background img{
+	padding: 0;
+	margin: 0;
+}
+
+.footer{
+	padding-top: 50px;
+	background-color: #031822;
+	color: white;
+	font-size: 0.9rem;
+}
+
+		.pp{
+			padding-top: 3rem;
+			padding-bottom: 1.5rem;
+		}
+			.pp-right{
+				padding-left: 125px;
+			}
+			.pp-left{
+				padding-left: 125px;
+			}
+
+		.alg-left{
+			text-align: left;
+			
+		}
+		.alg-right{
+			text-align: right;
+			
+		}
+
+		.middle {
+			border-left: 1px solid #08374f;
+			border-right: 1px solid #08374f;
+			text-align: center;
+		}
+		hr {
+			border: 1px solid #08374f;
+		}
+			.pp h1{
+				font-size: 1.2rem;
+				color: #e2a041;
+			}
+
+			.logox {
+				width: 15rem;
+				height: 20rem;
+			}
+
+.rede-social .fa, .rede-social h1{
+	margin-right: 0.8rem;
+	color: white;
+}
+
+
+
+
+
+.footer-final{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 0.9rem;
+	background-color: #020e13;
+	color: #8ea6b3;
+}

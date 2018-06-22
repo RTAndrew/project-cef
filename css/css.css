@@ -1,0 +1,276 @@
+
+/* CSS para todas as paginas */ 
+
+body{
+	background-color: #fdfdfd;
+	font-family: "Ubuntu";
+ /* #e6e9f0 */
+}
+/********* FONT *********/
+@font-face { 
+		font-family: "FontAwesome"; 
+		src: url('font/font-awesome/css/font-awesome.min.css') format('opentype'); 
+	}
+/********* DELICIOUS *********/
+	@font-face { 
+		font-family: "Delicious"; 
+		src: url('font/delicious/Delicious-Regular.otf'); 
+	}
+
+		@font-face { 
+			font-family: "DeliciousB"; 
+			src: url('font/delicious/Delicious-Bold.otf') format('opentype'); 
+		}
+
+		@font-face { 
+			font-family: "DeliciousBI"; 
+			src: url('font/delicious/Delicious-BoldItalic.otf') format('opentype'); 
+		}
+/********* UBUNTU *********/
+
+	@font-face { 
+		font-family: "Ubuntu"; 
+		src: url('font/ubuntu/Ubuntu-R.ttf') format('truetype'); 
+	}
+
+
+	p {
+		font-family: "Ubuntu";
+		font-weight: normal;
+		padding: auto;
+		margin: auto; 
+	}
+
+	h1, h2, h3, h4, h5 {
+		font-family: "DeliciousB";
+		font-weight: normal; 
+	}
+
+
+
+
+
+
+/* Menu Lateral Esquerdo */
+.erro {
+		font-size: 1.3rem;
+		color: red;
+		text-align: center;
+	}
+
+.sucesso {
+		font-size: 1.3rem;
+		color: green;
+		text-align: center;
+	}
+
+
+.sidebar{
+	background-color: #031822;
+	height: 100vh;
+}	
+			/* LOGOTIPO da Organizacao */
+			.logo {
+				display: inline;
+				margin: 0 auto;
+				width: auto;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+
+					/* Estilizacao do Menu */ 
+					.menu > li > a {
+						line-height: 20px;
+						color: white;
+						background-color: #031822;
+						border-bottom: 0.2px solid #08374f; /* #08374f */
+					}
+
+					.menu > li > a:hover{
+						background-color: #04202e;
+					}
+			
+							/***** ACTIVAR A PAGINA ACTUAL *****/
+								.menu .active{	
+									line-height: 20px;
+									color: white;
+									background-color: #04202e;
+								}
+
+
+								/* Menu Accordion */
+								.multilevel-accordion-menu .is-accordion-submenu-parent a {
+								  
+								}
+
+								.multilevel-accordion-menu .is-accordion-submenu a {
+								  background: #031822;
+								  content: "\f1db";
+								  font-family: FontAwesome;
+								  margin-right: 1.5rem;
+								}
+
+								.multilevel-accordion-menu .sublevel-1 {
+								  text-indent: 1.4rem;
+
+								}
+
+								.multilevel-accordion-menu .sublevel-2 {
+								  text-indent: 2rem;
+								}
+
+								.multilevel-accordion-menu .sublevel-3 {
+								  text-indent: 3rem;
+								}
+
+								.multilevel-accordion-menu .sublevel-4 {
+								  text-indent: 4rem;
+								}
+
+								.multilevel-accordion-menu .sublevel-5 {
+								  text-indent: 5rem;
+								}
+
+								.multilevel-accordion-menu .sublevel-6 {
+								  text-indent: 6rem;
+								}
+
+								.multilevel-accordion-menu a {
+								  color: #fefefe;
+								  font-size: 0.9rem;
+								}
+
+								.active {
+									color: #08374f;
+								}
+
+
+								.multilevel-accordion-menu a::after {
+								  border-bottom: 0.2px solid #08374f;
+								}
+
+								/* .multilevel-accordion-menu .menu > li:not(.menu-text) > a {
+								  padding: 0.5rem 0.4rem;
+								} */
+
+								/* Icons */
+								.multilevel-accordion-menu i{
+									margin-right: 1rem;
+									font-size: 1.6em;
+								}
+
+								.multilevel-accordion-menu .is-accordion-submenu-parent[aria-expanded="true"] a.subitem::before {
+								  content: "\f1db";
+								  font-family: FontAwesome;
+								  margin-right: 1.5rem;
+								}
+
+
+								.multilevel-accordion-menu .is-accordion-submenu-parent[aria-expanded="true"] span::before {
+								  content: "\f107";
+								  font-family: FontAwesome;
+								  margin-left: 0.4rem;
+								  font-size: 1rem;
+								}
+
+								.multilevel-accordion-menu .is-accordion-submenu-parent[aria-expanded="false"] span::before {
+								  content: "\f105";
+								  font-family: FontAwesome;
+								  margin-left: 0.4rem;
+								  font-size: 1.2rem;
+								}
+
+
+
+
+
+
+
+
+
+/* Painel completo que envolve o Titulo, Nome, Perfil, e o LOG OUT */					
+.panel{
+	color: #08374f;
+	background-color: #dae2df;
+	border-bottom: 3px solid #dae2df;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+			.nome-escola h1{
+				text-align:left;
+				color: #e2a041;
+				font-size: 1.3em;
+				font-weight: bold;
+			}			
+
+			.usuario-log{
+				padding: 0;
+				margin: 0;
+				text-align:right;
+				display: block;
+				text-decoration-style: none;
+				font-size: 0.9em;
+			}
+					.usuario-log > ul, li {
+						display: block;
+					}
+
+					.usuario-log a{
+						color: #08374f;
+					}
+				
+
+
+/* Apresentacao do Painel em que se encontra o Usuario */
+.controle-panel{
+	margin-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	position: relative;
+}
+		.status-panel {
+			color: #08374f;
+			border-bottom: 1px solid #dae2df;
+			margin-left:0px;
+			margin-right:0px;								
+		}
+				.status-panel > h1{
+					text-align: left;
+					font-size:1.2rem;
+					font-weight: bold;
+					color: #8ea6b3;
+				}
+
+
+			
+/* Footer */ 
+.footer{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #4e5b62;
+	font-size: 0.64em;
+	
+	margin-top: 0px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #031822;
+	height: 40px;
+	
+}
+
+.espacamento{
+	margin-bottom: 7%;
+}
+
+.espacamento-nav{
+	margin-bottom: 8rem;
+}
+
+
+						

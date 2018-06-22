@@ -1,0 +1,19 @@
+
+.avaliacao h1 {
+	font-size: 1.6rem;
+	border-bottom: 3px solid #8ea4af;
+	margin-bottom: 0.7rem;
+	color: #4e5a60;
+	
+}
+
+
+h5{
+	font-size: 1.6rem;
+	margin-bottom: 0.7rem;
+	color: #e2a041; 
+	/*font-weight: bold;*/
+}
+p {
+	font-size: 2rem;
+}

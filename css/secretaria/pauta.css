@@ -1,0 +1,23 @@
+form{
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+	border-bottom: 2px solid #dae2df;
+	margin-bottom: 1.5rem;
+}
+form h1 {
+	font-size: 2.4rem;
+	border-bottom: 3px solid #8ea4af;
+	margin-bottom: 1.4rem;
+	color: #4e5a60;
+}
+
+	form .button{
+		background-color: #e2a041;
+		font-size: 1.4rem;
+		font-weight: bold;
+		border-radius: 2px;
+	}
+	form .button:hover{
+		background-color: #e7b163;
+	}
